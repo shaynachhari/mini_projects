@@ -1,0 +1,42 @@
+#building{
+    background-image: url("backG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    
+    height: 450px;
+
+    width: auto;
+    
+
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+#road{
+    background-image: url("road.jpg");
+    height: 160px;
+    
+}
+#img{
+    width: 140px;
+    margin-top: 65px;
+}
+#btnid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+
+
+}
+#btn{
+    width: 90px;
+    height: 40px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 4px;
+    font-size: 20px;
+}

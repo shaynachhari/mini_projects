@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+
+      <form name="forms">
+          <div class="calc">
+              <input type="text" id="cal_id" name="screen"> <br>
+              <input type="button" value=" 7 "  onclick="forms.screen.value+=' 7 '">
+              <input type="button" value=" 8 "  onclick="forms.screen.value+=' 8 '">
+              <input type="button" value=" 9 "  onclick="forms.screen.value+=' 9 '">
+              <input type="button" value=" / "  onclick="forms.screen.value+=' / '">
+              <input type="button" value=" AC " class="btn_red"  onclick="forms.screen.value= ' '"><br>
+
+              <input type="button" value=" 4 "  onclick="forms.screen.value+=' 4 '">
+              <input type="button" value=" 5 "  onclick="forms.screen.value+=' 5 '">
+              <input type="button" value=" 6 "  onclick="forms.screen.value+=' 6 '">
+              <input type="button" value=" * "  onclick="forms.screen.value+=' * '">
+              <input type="button" value=" % "  onclick="forms.screen.value+=' % ' "><br>
+
+              <input type="button" value=" 1 "  onclick="forms.screen.value+=' 1 '">
+              <input type="button" value=" 2 "  onclick="forms.screen.value+=' 2 '">
+              <input type="button" value=" 3 "  onclick="forms.screen.value+=' 3 '">
+              <input type="button" value=" + "  onclick="forms.screen.value+=' + '">
+              <input type="button" value=" - "  onclick="forms.screen.value+=' - '"><br>
+
+              <input type="button" value=" 0 "  onclick="forms.screen.value+=' 0 '">
+              <input type="button" value=" ( "  onclick="forms.screen.value+=' ( '">
+              <input type="button" value=" ) "  onclick="forms.screen.value+=' ) '">
+              <input type="button" value=" . "  onclick="forms.screen.value+=' . '">
+              <input type="button" value=" = "  class="btn_blue" onclick="forms.screen.value =  eval(forms.screen.value) ">
+            </div>
+
+      </form>
+    </div>
+
+</body>
+</html>

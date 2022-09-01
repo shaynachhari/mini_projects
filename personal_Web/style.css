@@ -1,0 +1,29 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com"> */
+@import url("https://fonts.gstatic.com");
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar{
+    background-color: red;
+    width: 20vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* then? */
+.sidebar nav{
+    padding: 71px;
+}
+.sidebar nav li{
+    list-style-type: none;
+}
+
+.main{
+    background-color: yellow;
+    width: 80vw;
+}
+
+.container{
+    display: flex;
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+#back{
+    background-image: url('whouse.png');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    height: 400px;
+    width: auto;
+}
+
+.HW{
+    background-image: url('highway2.jpg');
+    height: 290px;
+    display: flex;
+}
+
+#img1{
+    
+    width: 140px;
+    height: 80px;
+    align-self: flex-end;
+    margin-bottom: 15px;
+    
+
+    
+    /* margin-bottom: -154px; */
+}
+#img2{
+    height: 80px;
+    width: 140px;
+    margin-top: 40px;
+    /* width: 150px; */
+    position: absolute;
+    right: 0px;
+
+}
+
+#btncls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+
+}
+
+
+.btn{
+    background-color:  rgb(252, 23, 15);
+    border: 1px solid rgb(5, 5, 5);
+    width: 80px;
+    height: 35px;
+    font-size: 22px;
+    margin: 7px;
+    padding: 3px;
+    /* text-decoration: 3px 4px 5p/x 5px; */
+}
+
+.btn:hover{
+background-color: rgb(36, 36, 240);
+color: white;
+}
